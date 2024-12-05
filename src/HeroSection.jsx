@@ -29,7 +29,7 @@ const HeroSection = () => {
         <span className="text-[#cd7f32] font-dancing">I'm Sarah</span>
       </h1>
 
-      <div className="px-6 pt-8 pb-24 md:px-12 lg:w-2/3 lg:px-6">
+      <div>
 
       <p className="text-white font-garamond text-lg md:text-2xl leading-relaxed">
             A Software Developer based in Ghana. I have a serious <br /> passion
@@ -47,9 +47,9 @@ const HeroSection = () => {
         </p>
       </div> 
       </div>
-</div> <br/><br/>
+</div> <br/>
 
-<div className="my-10">
+<div className="hidden md:block">
     <h2 className="text-[#cd7f32] font-lora font-bold text-2xl text-center">
       Technologies I use
     </h2>
@@ -59,19 +59,19 @@ const HeroSection = () => {
 
 <div className="flex justify-center gap-10 items-center">
       <div>
-        <img src="src/assets/HTML.png" alt="HTML" className="w-24 h-24"/>
+        <img src="src/assets/HTML.png" alt="HTML" className="md:w-24 h-24"/>
       </div>
 
       <div>
-        <img src="src/assets/css-logo.png" alt="CSS" className="w-24 h-24"/>
+        <img src="src/assets/css-logo.png" alt="CSS" className="md:w-24 h-24"/>
       </div>
 
       <div>
-        <img src="src/assets/react.png" alt="React"className="w-24 h-24"/>
+        <img src="src/assets/react.png" alt="React"className="md:w-24 h-24"/>
       </div>
 
     <div>
-        <img src="src/assets/Tailwind CSS.png" alt="Tailwind CSS" className="w-24 h-24"/>
+        <img src="src/assets/Tailwind CSS.png" alt="Tailwind CSS" className="md:w-24 h-24"/>
     </div>
     </div>
     </div>
@@ -96,6 +96,30 @@ const HeroSection = () => {
     </div>
     </div>
   )}
+
+<div>
+  <nav className="flex justify-end items-center">
+    <ul className="flex gap-10">
+      <li>
+        <a href="https://github.com/SarahDomson" target="_blank">
+          <img src="src/assets/github.png" alt="GitHub" className="w-8 h-8 transform transition-transform duration-300 hover:translate-x-2 hover:translate-y-2"/>
+        </a>
+      </li>
+      <li>
+        <a href="https://x.com/Ama_Domson?t=uxkbnLiauun68q9yfsxVRw&s=09" target="_blank">
+          <img src="src/assets/X logo.png" alt="X" className="w-8 h-8 transform transition-transform duration-300 hover:translate-x-2 hover:translate-y-2"/>
+        </a>
+      </li>
+      <li>
+        <a href="https://www.linkedin.com/in/sarah-domson-5749661a9?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
+          <img src="src/assets/linkedin.png" alt="LinkedIn" className="w-8 h-8 transform transition-transform duration-300 hover:translate-x-2 hover:translate-y-2"/>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+
     </div>
   </div>
   );
