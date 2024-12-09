@@ -82,14 +82,14 @@ const HeroSection = () => {
 
         <h2 className="text-2xl text-center font-semi-bold py-8 text-[#cd7f32]">Send Me a Message</h2>
 
-        <button onClick={togglePopup} className="absolute top-0 right-0 text-red-500 font-bold text-xl hover:text-red-700">&times;</button>
+        <button onClick={togglePopup} className="absolute -top-8 -right-8 w-20 h-20 text-red-500 font-bold text-xl hover:text-red-700">&times;</button>
 
     <form className="space-y-4">
         <label for="fullname" className="block text-[#cd7f32]">Full Name</label>
-        <input type="text" name="fullname" id="fullname" placeholder-black required placeholder="Full Name" className="w-full p-3 rounded-md border border[#cd7f32]"/>
+        <input type="text" name="fullname" id="fullname" placeholder-black required placeholder="Full Name" className="w-full p-3 rounded-md border border-[#cd7f32]"/>
 
         <label for="email" className="block text-[#cd7f32]">Email</label>
-        <input type="text" name="email" id="email" placeholder-black required placeholder="Email" className="w-full p-3 rounded-md border border[#cd7f32]"/>
+        <input type="text" name="email" id="email" placeholder-black required placeholder="Email" className="w-full p-3 rounded-md border border-[#cd7f32]"/>
 
         <label for="message" className="block text-[#cd7f32]">Message</label>
         <textarea placeholder="Message" className="w-full border border-[#cd7f32] p-3 rounded-md"></textarea>
