@@ -24,5 +24,11 @@ After completing my frontend development project using **Tailwind CSS** and **Ja
 
 ## How to Run the Project  
 1. Clone this repository:  
-   ```bash
-   git clone [repository URL]
+   git clone (https://github.com/SarahDomson/Personal-Porfolio)
+
+2. cd Personal-Portfolio
+
+3. npm install
+
+4. npm start
+
