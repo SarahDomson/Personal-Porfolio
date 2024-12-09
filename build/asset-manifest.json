@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SarahDomson/Personal-Portfolio/static/css/main.985d53f6.css",
+    "main.js": "/SarahDomson/Personal-Portfolio/static/js/main.f14dc306.js",
+    "index.html": "/SarahDomson/Personal-Portfolio/index.html",
+    "main.985d53f6.css.map": "/SarahDomson/Personal-Portfolio/static/css/main.985d53f6.css.map",
+    "main.f14dc306.js.map": "/SarahDomson/Personal-Portfolio/static/js/main.f14dc306.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.985d53f6.css",
+    "static/js/main.f14dc306.js"
+  ]
+}
