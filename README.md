@@ -1,5 +1,6 @@
 # Recreating This Portfolio Using React.js  
 This repository documents my journey to learning **React.js** by rebuilding my portfolio project. 🚀  
+https://levitkanner.github.io/me/
 
 ## Why This Project?  
 After completing my frontend development project using **Tailwind CSS** and **JavaScript**, I decided to take the next step by learning **React.js**. This project allows me to:  
